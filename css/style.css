@@ -15,6 +15,10 @@ main {
     margin: 20px;
 }
 
+img {
+    max-width: 100%;
+}
+
 .intro {
     background-color: rgb(171, 163, 199);
     padding: 20px;
@@ -24,6 +28,12 @@ main {
 .intro h2 {
     margin-bottom: 10px;
 }
+
+.intro img{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
 
 .cards-container article {
     background-color: rgb(221, 225, 248);
@@ -43,6 +53,11 @@ article h3 {
 
 article ul {
     margin-left: 20px;
+}
+
+article img {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
