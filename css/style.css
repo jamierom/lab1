@@ -1,1 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main {
+    margin: 20px;
+}
+
+.intro {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.intro h2 {
+    margin-bottom: 10px;
+}
+
+.cards-container article {
+    background-color: lightyellow;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+article h3 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+article ul {
+    margin-left: 20px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+
+    .cards-container article {
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+
+}
